@@ -1,0 +1,23 @@
+[33mcommit c09759a0ae9d5fbfceed408a1c7bfc8890932b40[m
+Author: S7tH <myrandill@hotmail.fr>
+Date:   Fri Sep 30 17:33:06 2016 +0200
+
+    correction d'une instruction non fermée par un ;
+
+[33mcommit ad4caa209a22af4cc14dcd819f4e94b45fa55e64[m
+Author: S7tH <myrandill@hotmail.fr>
+Date:   Fri Sep 30 16:39:19 2016 +0200
+
+    Ajout d'une condition rendant impossible d'entrer un contact vide
+
+[33mcommit ad8c8fb946a8171018acf464f6f47dacfabc5cbf[m
+Author: S7tH <myrandill@hotmail.fr>
+Date:   Fri Sep 30 16:26:32 2016 +0200
+
+    Ajout d'un fichier readme
+
+[33mcommit d824cf8ecd4c7c873a9d3c7584cf1ead5e52f4a2[m
+Author: S7tH <myrandill@hotmail.fr>
+Date:   Fri Sep 30 16:20:23 2016 +0200
+
+    Ajoute de mon exercice gerant les contacts sous la console du kit de devellopement web

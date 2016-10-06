@@ -1,0 +1,33 @@
+#pannelGlobal
+{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#pannelMenu
+{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    border:2px black ridge;
+    color: darkcyan
+}
+
+#pannelMenu select
+{
+    border-radius: 6px;
+    background-color: darkcyan;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
+#pannelView
+{
+    height: 100%;
+    width: 100%;
+    border:2px black ridge;
+    color:green;
+    padding: 2%;
+}

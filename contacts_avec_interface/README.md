@@ -1,0 +1,1 @@
+A contact management exercise in JavaScript whith console.log() + graphical Interface
