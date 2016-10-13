@@ -5,16 +5,19 @@
 // - son auteur (la personne qui l'a publié)
 
 //on crée la requête vers le serveur pour récuperer les infos de l'api
-ajaxGet("https://oc-jswebsrv.herokuapp.com/api/liens", function (reponse) {
+function requeteAjaxGet()
+{
+    ajaxGet("https://oc-jswebsrv.herokuapp.com/api/liens", function (reponse) {
 
-    var linksApi = JSON.parse(reponse);
+        var linksApi = JSON.parse(reponse);
 
-    linksApi.forEach(function(link)
-    {
-        createNewLinkApi(link.id, link.titre, link.url, link.auteur);
+        linksApi.forEach(function(link)
+        {
+            createNewLinkApi(link.id, link.titre, link.url, link.auteur);
+        });
     });
-});
-
+}
+requeteAjaxGet();
 //récupération de liens de base du document créés dans un objet locale
 var listeLiens = [
     {
@@ -371,6 +374,8 @@ formElt.addEventListener('submit', function(e)
             {
                 //on appel notre message de confirmation
                 MsgSucces(true);
+                requeteAjaxGet();
+                
             }, true);
             
            /*au bout de 500 mili-secondes, la condition sera check et peut laisser le temps a MsgSucces(true) de passer le boolean sur true pour ne pas afficher 1/2 seconde mon bloc echec.
